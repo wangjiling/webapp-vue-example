@@ -1,0 +1,82 @@
+.app{
+  .mint-header{
+    background-color: #4994EC;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 13px;
+    .mint-button{
+      height: 100%;
+    }
+  }
+  .picker-slot{
+    width: 48%;
+  }
+  .picker-slot.picker-slot-divider{
+    width: auto;
+  }
+}
+.mint-msgbox-wrapper{
+  .mint-msgbox{
+    width: 80%;
+    border-radius: 8px;
+    .mint-msgbox-content{
+      min-height: 24px;
+      padding: 24px 22px;
+    }
+    .mint-msgbox-message{
+      font-size: 16px;
+      color: #000000;
+      line-height: 24px;
+    }
+  }
+  .mint-msgbox-btns{
+    height: 44px;
+    line-height: 44px;
+    button{
+      font-size: 18px;
+      color: #388BED;
+    }
+  }
+}
+.mint-toast{
+  &.default-reset{
+    width: 100%;
+    max-width: none!important;
+    background: none!important;
+    padding: 0!important;
+    .mint-toast-text{
+      display: inline-block;
+      max-width: 80%;
+      line-height: 20px;
+      font-size: 16px;
+      padding: 12px 15px!important;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+    }
+  }
+  &.with-success-icon{
+    .mint-toast-text{
+      background: url('./assets/img/svg/success_icon.svg') 15px center no-repeat rgba(0, 0, 0, 0.7);
+      background-size: 20px 19px;
+      padding-left: 40px!important;
+    }
+  }
+}
+.mint-cell{
+  .mint-field-clear{
+    opacity: 1;
+    color: #cccccc;
+    // 可更改clear图片
+    // i{
+    //   display: inline-block;
+    //   width: 15px;
+    //   height: 15px;
+    //   font-size: 0;
+    //   background: url('./assets/img/svg/success_icon.svg') no-repeat 0 0;
+    //   background-size: cover;
+    // }
+    // i:before{
+    //   content:'';
+    // }
+  }
+}

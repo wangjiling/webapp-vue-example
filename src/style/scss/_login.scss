@@ -1,0 +1,196 @@
+.login-container{
+	background-color: #ffffff;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	.input{
+		height: 55px;
+	}
+	.icon{
+		display: block;
+	}
+	.logo-icon{
+		width: 200px;
+		height: 30px;
+		margin: 0 auto;
+		background: url(./assets/img/svg/logo.svg) no-repeat 0 0;
+		background-size: cover;
+	}
+	.eye-icon{
+		width: 24px;
+		height: 24px;
+		background: url(./assets/img/svg/btn_mima_yincang.svg) no-repeat 0 0;
+		background-size: cover;
+	}
+	.eye-icon-open{
+		background: url(./assets/img/svg/btn_mima_xianshi.svg) no-repeat 0 0;
+		background-size: cover;
+	}
+	.logo-container{
+		height: 80px;
+		padding-top: 40px;
+		text-align: center;
+		.iswx{
+			font-size: 14px;
+			color: #999999;
+			margin-top: 13px;
+		}
+	}
+	.login-form{
+		margin-top: 10px;
+		.mint-cell{
+			.mint-field-other{
+			  right: 1.4%;
+			  position: absolute;
+			}
+			.mint-field-clear{
+				position: absolute;
+				top: 50%;
+				margin-top: -8px;
+			}
+			&-value{
+				width: 100%;
+				position: relative;
+			}
+			&.phone{
+				.mint-field-clear{
+					right:0px;
+				}
+			}
+			&.password{
+				.mint-field-other{
+			  	  top: 50%;
+			  	  right: 7px;
+			  	  margin-top: -12px;
+			  	}
+			  	.mint-field-clear{
+					right:50px;
+				}
+			}
+			&.code{
+			   .mint-field-other{
+			  	  top: -13px;
+			  	  right: 0px;
+			  	}
+			  	.mint-field-clear{
+					right:110px;
+				}
+			}
+			&.dynamic{
+			  .mint-field-other{
+			  	top: 50%;
+			  	right: 9px;
+			  	margin-top: -10px;
+			  }
+			  .mint-field-clear{
+				right:70px;
+			  }
+			}
+			.dya-count{
+				display: block;
+				height: 20px;
+				line-height: 20px;
+				padding-left: 12px;
+				background-color: #ffffff;
+				color: #26a2ff;
+				border: none;
+				border-left: 1px solid #eee;
+				cursor: pointer;
+				font-size: 16px;
+				&.dya-count-send{
+					color: #cccccc;
+				}
+			}
+		}
+		.mint-cell:first-child .mint-cell-wrapper{
+			background-origin: content-box;
+		}
+		.mint-cell:last-child{
+			background-image: none;
+		}
+		.mint-cell-wrapper{
+		  background-size: 100% 1px;
+		  background-position: bottom left;
+		  padding: 0 15px;
+		}
+	}
+
+	.btn{
+		margin-top: 40px;
+		padding: 0px 10px;
+		position: relative;
+		.other-link{
+			margin-top: 10px;
+			display: flex;
+			display: -webkit-flex;
+			font-size: 14px;
+			&.pwd{
+				justify-content: space-between;
+				-webkit-justify-content: space-between;
+			}
+			&.dya{
+				justify-content: flex-end;
+				-webkit-justify-content: flex-end;
+			}
+		}
+		a{
+			text-decoration: none;
+			color: #26a2ff;
+		}
+	}
+	.login-btn{
+		font-size: 21px;
+		&.login-btn-disabled{
+			background-color: #D9DADA;
+			opacity: 1;
+		}
+	}
+	.or-line{
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		-webkit-align-items: center;
+		justify-content: center;
+		-webkit-justify-content: center;
+		margin-top: 13px;
+		.line{
+			border-top: 1px solid #D9DADA;
+			width: 150px;
+		}
+		.or{
+			width: 44px;
+			font-size: 16px;
+			color: #D9DADA;
+			line-height: 44px;
+			text-align: center;
+		}
+	}
+	.register-link{
+		display: block;
+		margin-top: 13px;
+		text-align: center;
+		font-size: 16px;
+	}
+}
+.login-success-toast{
+	width: 170px;
+	height: 50px;
+	padding: 0px!important;
+	line-height: 50px;
+	.icon-success{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		padding-top: 0px!important;
+		margin-bottom: -5px;
+		margin-right: 8px;
+		background: url(./assets/img/svg/success_icon.svg) no-repeat 0 0;
+		background-size: cover;
+	}
+	.mint-toast-text{
+		display: inline-block;
+		padding-top: 0px!important;
+	}
+}
